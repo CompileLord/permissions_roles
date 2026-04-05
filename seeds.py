@@ -72,7 +72,7 @@ create_user(user=user_admin, db=session_1)
             
 
 
-create_all_permissions(db=get_db)
+create_all_permissions(db=get_db, role=admin_role)
 
 for i in AbstractBase.__subclasses__():
     print(i.__name__)

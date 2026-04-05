@@ -4,3 +4,5 @@
 alembic/versions/*.py
 *__pycache__
 .venv
+test.db
+*.db
